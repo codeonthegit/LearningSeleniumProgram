@@ -10,4 +10,4 @@ def test_open_vwologin():
     driver.back()
     driver.forward()
     time.sleep(10)
-    driver.quit()
+
