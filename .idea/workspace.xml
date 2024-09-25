@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12bf01c-918f-451d-b03b-108344fb696f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/12082024/test_Lab005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12082024/test_Lab006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12082024/test_Lab007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12082024/test_Lab008.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_result/c23132b2-71df-44ce-98ec-ee72e825c4b8-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e12bf01c-918f-451d-b03b-108344fb696f" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/12082024/test_Lab009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16082024/test_Lab010_implicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16082024/test_Lab011_Explicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16082024/test_Lab012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16082024/test_Lab013_fluent_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17082024/test_Lab014_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17082024/test_Lab015_Aletrs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18082024/test_Lab016_Actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18082024/test_Lab017_Mouse_Actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18082024/test_Lab018_Mouse_Actions_Drag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07082024/test_sele_Lab001.py" beforeDir="false" afterPath="$PROJECT_DIR$/07082024/test_sele_Lab001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09082024/test_Lab002.py" beforeDir="false" afterPath="$PROJECT_DIR$/09082024/test_Lab002.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09082024/test_Lab003.py" beforeDir="false" afterPath="$PROJECT_DIR$/09082024/test_Lab003.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09082024/test_Lab004_Navigation commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/09082024/test_Lab004_Navigation commands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,9 @@
     &quot;accountId&quot;: &quot;fa973348-9eba-4d46-83dd-03756f4e15bd&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -55,110 +58,125 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_Lab002.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab003.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab004_Navigation commands.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab005.test_mini_project_1.executor": "Run",
-    "Python tests.Python tests for test_Lab006.test_mini_project_1.executor": "Run",
-    "Python tests.Python tests for test_Lab007.test_mini_project_2.executor": "Run",
-    "Python tests.Python tests for test_sele_Lab001.test_sample.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ManjiriGosavi/PycharmProjects/LearningSeleniumProgram/12082024",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_Lab002.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab003.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab004_Navigation commands.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab005.test_mini_project_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab006.test_mini_project_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab007.test_mini_project_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab008.test_mini_project_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab009.test_mini_project_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab010.test_mini_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab011_Explicit_wait.test_mini_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab012.test_mini_project_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab013.test_vwo_login_invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab014_exceptions.test_vwo_login_16.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab015_Aletrs.TestAlerts.test_alerts_tc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab016_Actions.TestAlerts.test_016_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab016_Actions.test_016_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab017_Mouse_Actions.test_016_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab018_Mouse_Actions_Drag.test_018_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_sele_Lab001.test_sample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ManjiriGosavi/PycharmProjects/LearningSeleniumProgram/18082024&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ManjiriGosavi\PycharmProjects\LearningSeleniumProgram\18082024" />
+      <recent name="C:\Users\ManjiriGosavi\PycharmProjects\LearningSeleniumProgram\17082024" />
+      <recent name="C:\Users\ManjiriGosavi\PycharmProjects\LearningSeleniumProgram\16082024" />
       <recent name="C:\Users\ManjiriGosavi\PycharmProjects\LearningSeleniumProgram\12082024" />
       <recent name="C:\Users\ManjiriGosavi\PycharmProjects\LearningSeleniumProgram\09082024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Lab008.test_mini_project_3">
-    <configuration name="Python tests for test_Lab004_Navigation commands.test_open_vwologin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab018_Mouse_Actions_Drag.test_018_actions">
+    <configuration name="Python tests for test_Lab015_Aletrs.TestAlerts.test_alerts_tc1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumProgram" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09082024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17082024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab004_Navigation commands.test_open_vwologin&quot;" />
+      <option name="_new_target" value="&quot;test_Lab015_Aletrs.TestAlerts.test_alerts_tc1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab005.test_mini_project_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab016_Actions.TestAlerts.test_016_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumProgram" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12082024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18082024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab005.test_mini_project_1&quot;" />
+      <option name="_new_target" value="&quot;test_Lab016_Actions.TestAlerts.test_016_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab006.test_mini_project_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab016_Actions.test_016_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumProgram" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12082024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18082024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab006.test_mini_project_1&quot;" />
+      <option name="_new_target" value="&quot;test_Lab016_Actions.test_016_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab007.test_mini_project_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab017_Mouse_Actions.test_016_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumProgram" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12082024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18082024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab007.test_mini_project_2&quot;" />
+      <option name="_new_target" value="&quot;test_Lab017_Mouse_Actions.test_016_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab008.test_mini_project_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab018_Mouse_Actions_Drag.test_018_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumProgram" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12082024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18082024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab008.test_mini_project_3&quot;" />
+      <option name="_new_target" value="&quot;test_Lab018_Mouse_Actions_Drag.test_018_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Lab008.test_mini_project_3" />
-        <item itemvalue="Python tests.Python tests for test_Lab007.test_mini_project_2" />
-        <item itemvalue="Python tests.Python tests for test_Lab006.test_mini_project_1" />
-        <item itemvalue="Python tests.Python tests for test_Lab005.test_mini_project_1" />
-        <item itemvalue="Python tests.Python tests for test_Lab004_Navigation commands.test_open_vwologin" />
+        <item itemvalue="Python tests.Python tests for test_Lab018_Mouse_Actions_Drag.test_018_actions" />
+        <item itemvalue="Python tests.Python tests for test_Lab017_Mouse_Actions.test_016_actions" />
+        <item itemvalue="Python tests.Python tests for test_Lab016_Actions.test_016_actions" />
+        <item itemvalue="Python tests.Python tests for test_Lab016_Actions.TestAlerts.test_016_actions" />
+        <item itemvalue="Python tests.Python tests for test_Lab015_Aletrs.TestAlerts.test_alerts_tc1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +196,15 @@
       <option name="presentableId" value="Default" />
       <updated>1727083112772</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1727160524532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727160524532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,5 +217,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>
